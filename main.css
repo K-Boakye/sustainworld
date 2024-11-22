@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0ebeb;
+}
+
+.header {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header .logo span {
+    color: #e76f51;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('hero.jpg') no-repeat center/cover;
+    padding: 8rem;
+    color: #ded1be;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-btn {
+    background-color: #e76f51;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.about, .impact, .galamsey, .campaigns, .contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.galamsey-image {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.galamsey-image img {
+    width: calc(50% - 10px);
+    height: 300px;
+    object-fit: cover;
+}
+
+.impact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.impact-card h3,
+.impact-card p {
+    margin: 0;
+    text-align: left;
+}
+
+.impact-card-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.impact-card-images img {
+    width: calc(50% - 5px);
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e9c46a;
+}
